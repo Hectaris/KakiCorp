@@ -1,2 +1,11 @@
-@import "footer";
-@import "bandeau";
+@import 'abstract/_color';
+@import 'abstract/_variables';
+@import 'base/commons';
+@import 'base/fonts';
+@import 'base/reset';
+@import 'base/_typography';
+@import 'component/buttons';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'sections/bandeau';
+
