@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    {{ content}}
+    {% includes pages/Commonsections/Header.html %}
+
+    {% includes pages/Home.html %}
+
+    {% includes pages/Commonsections/Footer.html %}
+
   </body>
 </html>
