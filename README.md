@@ -1,5 +1,5 @@
-##BEARSCOOKING
-T'as vu on a un readme
+**BEARSCOOKING**
+T'as vu on a un readme.md
 
 Sinon c'est le repo git du site BearsCooking 
 
