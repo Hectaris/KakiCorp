@@ -1,4 +1,19 @@
-h2{
-    font-size: large;
+.BandSpeed{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    padding-left: 1vh;
+    h2{
+        font-size: bold;
+
+    }
 }
+.PabndSpeed{
+    background-color: $yellowcolor;    
+    margin-top: 3em;
+}
+
 //A MODIFIER
