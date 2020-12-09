@@ -1,8 +1,8 @@
 .BandSpeed{
     display: flex;
     justify-content: space-around;
-    // text-align: center;
-    // align-items: center;
+    text-align: center;
+    align-items: center;
     padding-top: 6vw;
     padding-bottom: 6vw;
     padding-left: 1vh;
@@ -19,22 +19,21 @@
 .PBandSpeed h2{
     font-family: 'gt walsheim pro';
     font-weight: bold;
-    font-size: 10px;
+    font-size: 20px;
 }
 .chrono{
-    display: flex;
-    justify-content: right;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 12px;
+
 }
 .chrono p{
     text-align: center;
 }
-.chrono img{
-    height: 40%;
-    width: 40%;
-}
+
 .PBandSpeed img{
     width: 22%;
     height: 22%;
@@ -42,8 +41,8 @@
 .BandCuistot{
     display: flex;
     justify-content: space-around;
-    // text-align: center;
-    // align-items: center;
+    text-align: center;
+    align-items: center;
     padding-top: 2vw;
     padding-bottom: 6vw;
     padding-left: 1vh;
