@@ -1,3 +1,11 @@
+.menuAccueil{
+
+}
+
+
+
+
+
 .button {
     background-color: $buttonColor;
     text-align: center;
@@ -8,7 +16,7 @@
     margin: 10vh;
 }
 .button p{
-    font-family: $bodyFont;
+    font-family: 'Helvetica';
 }
 .button:hover {
     background-color: $yellowcolor;
