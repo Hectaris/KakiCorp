@@ -1,14 +1,36 @@
 $header_BackgroundColor: #FAF3DD;
-header {
+.header {
+    font-family: "GTWalsheimPro-CondensedRegular", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 10vh;
+    height: 6vh;
+    background-color: $header_BackgroundColor;
 }
 
-.header {
+.menu {
+    padding-top: 5px;
+    flex-grow: 1;
     display: flex;
-    width: 100%;
-    height: 7vh;
-    background-color: $header_BackgroundColor;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    height: 100%;
+    .menu_burger {
+        height: 4vh;
+        justify-self: center;
+    }
+    .menu_title {
+        font-size: 8px;
+        height: 2vh;
+        text-align: center;
+    }
+    a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
 }
 
 header img {
@@ -17,7 +39,13 @@ header img {
 }
 
 .header .titre_header {
+    text-align: center;
+    flex-grow: 2;
     left: 50vw;
     font-size: 20px;
     flex-wrap: nowrap;
+}
+
+.logo_header {
+    flex-grow: 1;
 }
