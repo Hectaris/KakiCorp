@@ -3,8 +3,10 @@
     src: url("GTWalsheimPro-CondensedRegular.ttf");
   }
   
-  @font-face {
-    font-family: 'gt walsheim pro'bold;
+@font-face {
+    font-family: 'gt walsheim pro bold';
     src: url("GTWalsheimPro-Bold.ttf");
   }
-//A MODIFIER
+
+$Helvetica: 'Helvetica', 'Arial', sans-serif;
+
