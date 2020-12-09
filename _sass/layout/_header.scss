@@ -1,19 +1,32 @@
+@font-face {
+    font-family: "gt walsheim pro";
+    src: url("GTWalsheimPro-CondensedRegular.ttf");
+}
+
 $header_BackgroundColor: #FAF3DD;
+$overlayColor: #aed9e08e;
+$fontColor: #2D3034;
+$fontFamily: "gt walsheim pro",
+sans-serif;
+$fontWeight: 400;
+$fontSize: 20px;
 .header {
+    background-color: $header_BackgroundColor;
+    color: $fontColor;
+    z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
-    font-family: "GTWalsheimPro-CondensedRegular", sans-serif;
+    font-family: $fontFamily;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 6vh;
-    background-color: $header_BackgroundColor;
 }
 
 .menu {
-    padding-top: 5px;
+    padding-top: 6px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -23,22 +36,23 @@ $header_BackgroundColor: #FAF3DD;
     .menu_burger {
         height: 4vh;
         justify-self: center;
+        img {
+            height: 30px;
+            width: auto;
+        }
     }
     .menu_title {
         font-size: 8px;
         height: 2vh;
         text-align: center;
+        text-decoration: none;
+        color: $fontColor;
     }
     a {
         display: flex;
         justify-content: center;
         text-decoration: none;
     }
-}
-
-header img {
-    height: 20px;
-    width: auto;
 }
 
 .header .titre_header {
@@ -51,4 +65,87 @@ header img {
 
 .logo_header {
     flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    img {
+        padding-left: 10px;
+        padding-top: 4px;
+        width: 38px;
+        height: auto;
+    }
+}
+
+.menu_appear_box {
+    z-index: 997;
+    background-color: $overlayColor;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    transition: left 1s;
+}
+
+.overlay-is-active {
+    left: 0;
+}
+
+.overlay-is-gone {
+    left: 200vw;
+}
+
+.column-is-active {
+    right: 0;
+}
+
+.column-gone {
+    right: -80vw;
+}
+
+.menu_appear_column {
+    transition:  2s;
+    color: $fontColor;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #AED9E0;
+    z-index: 998;
+    top: 0;
+    height: 100%;
+    width: 70vw;
+    .fermer_header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 100%;
+        height: 9vh;
+        a {
+            margin-top: 30px;
+        }
+        img {
+            width: 30px;
+            height: auto;
+            margin-right: 4vh;
+        }
+    }
+    .text_menu {
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        p {
+            font-family: $fontFamily;
+            margin-bottom: 30px;
+            margin-right: 5vh;
+            a {
+                font-size: $fontSize;
+                font-weight: $fontWeight;
+                font-family: $fontFamily;
+                color: $fontColor;
+                text-decoration: none;
+            }
+        }
+    }
 }
