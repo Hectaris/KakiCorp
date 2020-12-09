@@ -1,67 +1,66 @@
-.menuAccueil{
+.menuAccueil {
     font-family: $Helvetica;
+    font-weight: normal;
     color: $bodyColor;
 }
-.welcome{
+.welcome {
     margin-top: 12vh;
-    font-family: "GTWalsheimPro", sans-serif;
     text-align: center;
+}
+.welcome P {
     font-weight: bold;
-}
-;.welcome P{
     font-size: x-large;
+    font-family: "GTWalsheimPro-CondensedRegular", sans-serif;
+    text-transform: uppercase;
 }
-.oursClinOeil{
+.oursClinOeil {
     display: flex;
     justify-content: center;
     height: 15vh;
     width: auto;
     margin: 5vh;
-    img {
-        height: 15vh;
-        width: auto;
-    }
 }
-.oursClinOeil img{
-    
+.oursClinOeil img {
+    height: 15vh;
+    width: auto;
+    filter: drop-shadow(0 0.3vh 0.6vh rgba(0, 0, 0, 0.5));
 }
-.devise{
+.devise {
     text-align: center;
     margin-bottom: 5vh;
-
 }
-.devise h2{
-    font-family: "GTWalsheimPro", sans-serif;
+.devise h2 {
+    font-family: "GTWalsheimPro-CondensedRegular", sans-serif;
     margin: 0 10vh 0 10vh;
+    text-transform: uppercase;
 }
-.problemClass{
 
-}
-.problem{
+.problem {
     text-align: center;
     margin-bottom: 4vh;
 }
-.problem p{
+.problem p {
     margin: 0 10vh 0 10vh;
 }
-.cuisineUnJeu{
+.cuisineUnJeu {
     text-align: center;
     margin-bottom: 5vh;
 }
-.cuisineUnJeu p{
+.cuisineUnJeu p {
     margin: 0 10vh 0 10vh;
 }
-.temps{
+.temps {
     text-align: center;
     margin-bottom: 1.5vh;
 }
-.temps p{
+.temps p {
     font-size: small;
     margin: 0 10vh 0 10vh;
 }
-.buttonClique{
+.buttonClique {
     display: flex;
     justify-content: center;
+    filter: drop-shadow(0 0.3vh 0.6vh rgba(0, 0, 0, 0.5));
 }
 .button {
     display: flex;
@@ -72,14 +71,13 @@
     height: 6vh;
     width: 27vh;
     text-decoration: none;
-    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.button p{
-    font-family: 'Helvetica';
+.button p {
+    font-family: "Helvetica";
     text-align: center;
     font-weight: bold;
 }
-.montre{
+.montre {
     height: 3.5vh;
     width: auto;
 }
@@ -87,20 +85,20 @@
     background-color: $yellowcolor;
     color: $bodyColor;
 }
-.recettes{
-    margin-top: 10vh;
+.recettes {
+    margin-top: 13vh;
     text-align: center;
     font-weight: bold;
 }
-.fleche{
+.fleche {
     display: flex;
     justify-content: center;
     height: 3.5vh;
     width: auto;
-    margin: 1vh;
-    img {
-        height: 3.5vh;
+    margin: 0.5vh 0 2vh 0;
+}
+.fleche img {
+    height: 3.5vh;
     width: auto;
-    
-    }
+    filter: drop-shadow(0 0.3vh 0.6vh rgba(67, 82, 142, 0.5));
 }
