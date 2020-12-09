@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,GAAG,CAAA;EACC,SAAS,EAAE,IAAI;CAClB;;AACD,AAAA,GAAG,CAAA;EACC,SAAS,EAAE,aAAa;CAC3B",
-    "sources": [
-        "menuspeed.scss"
-    ],
-    "names": [],
-    "file": "menuspeed.css"
-}
