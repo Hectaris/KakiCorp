@@ -2,7 +2,7 @@
     font-family: $Helvetica;
 }
 .welcome{
-    margin-top: 10vh;
+    margin-top: 12vh;
     font-family: 'gt walsheim pro bold';
     text-align: center;
 }
@@ -18,43 +18,51 @@
 }
 .problem{
     text-align: center;
+    margin-bottom: 4vh;
 }
 .cuisineUnJeu{
     text-align: center;
+    margin-bottom: 5vh;
 }
 .temps{
     text-align: center;
+    margin-bottom: 1.5vh;
+}
+
+.buttonClique{
+    display: flex;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $buttonColor;
+    color: $yellowcolor;
+    height: 6vh;
+    width: 21vh;
+    text-decoration: none;
+}
+.button p{
+    font-family: 'Helvetica';
+    text-align: center;
+    font-weight: bold;
 }
 .montre{
-    height: 4vh;
+    height: 3.5vh;
+}
+.button:hover {
+    background-color: $yellowcolor;
+    color: $bodyColor;
 }
 .recettes{
+    margin-top: 10vh;
     text-align: center;
+    font-weight: bold;
 }
 .fleche{
     display: flex;
     justify-content: center;
     height: 3.5vh;
     margin: 1vh;
-}
-
-
-
-.button {
-    background-color: $buttonColor;
-    color: $yellowcolor;
-    height: 7vh;
-    width: 20vh;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-}
-.button p{
-    font-family: 'Helvetica';
-    text-align: center;
-
-}
-.button:hover {
-    background-color: $yellowcolor;
-    color: $bodyColor;
 }
