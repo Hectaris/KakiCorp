@@ -1,12 +1,12 @@
 @import 'abstract/_color';
 @import 'abstract/_variables';
-@import 'base/commons';
-@import 'base/fonts';
-@import 'base/reset';
+@import 'base/_commons';
+@import 'base/_fonts';
+@import 'base/_reset';
 @import 'base/_typography';
-@import 'component/buttons';
-@import 'layout/footer';
-@import 'layout/header';
-@import 'sections/bandeau';
-@import 'layout/menuspeed.scss'
+@import 'component/_buttons';
+@import 'layout/_footer';
+@import 'layout/_header';
+@import 'sections/_bandeau';
+@import 'layout/_menuspeed.scss';
 
