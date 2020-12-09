@@ -1,4 +1,23 @@
-h1{
-    font-size: large;
+.text{
+    color:#2d3034 ;
+    font-size:15px;
+    font-family: "GTWalsheimPro-CondensedRegular", sans-serif;
+    height: 1%;
 }
-//A MODIFIER
+
+.fond_footer{
+    background-color:#faf3dd ;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pos_fleche{
+    align-items: center;
+}
+
+.hyperlien{
+    color: $buttonColor;
+}
