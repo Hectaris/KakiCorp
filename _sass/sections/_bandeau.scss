@@ -2,18 +2,27 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-
-    padding-top: 7vw;
-    padding-bottom: 7vw;
+    align-items: center;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
     padding-left: 1vh;
+    padding-right: 1VH;
     h2{
-        font-size: bold;
+        font-size: 20px;
+        font-weight: bold;
+
 
     }
 }
-.PabndSpeed{
+.PBandSpeed{
     background-color: $yellowcolor;    
     margin-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
-
+.chrono{
+    display: flex;
+    justify-content: space-around;
+}
 //A MODIFIER
