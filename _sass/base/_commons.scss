@@ -1,8 +1,5 @@
-$backgroundColor: pink;
-$bodyFont: 'Helvetica Neue';
-$greencolor: black;
 body {
     background: $backgroundColor;
     font-family: $bodyFont;
-    color: $greencolor;
+    color: $bodyColor;
 }
