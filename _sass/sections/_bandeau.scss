@@ -7,15 +7,11 @@
     padding-bottom: 6vw;
     padding-left: 1vh;
     padding-right: 1VH;
-    h2{
-        font-size: 20px;
-        font-weight: bold;
-
-
-    }
 }
 .PBandSpeed{
-    background-color: $yellowcolor;    
+    background-color: $yellowcolor;   
+    display: flex;
+    justify-content: center; 
     margin-top: 3em;
     margin-bottom: 6em;
     margin-right: auto;
@@ -28,13 +24,40 @@
     font-size: 20px;
 }
 .chrono{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 10px;
+
+}
+.chrono p{
+    text-align: center;
+}
+
+.PBandSpeed img{
+    width: 22%;
+    height: 22%;
+}
+.BandCuistot{
     display: flex;
     justify-content: space-around;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    padding-top: 2vw;
+    padding-bottom: 6vw;
+    padding-left: 1vh;
+    padding-right: 1VH;
 }
-.PBandSpeed img{
-    width: 3%;
-    height: 3%;
+.BandCuistot img{
+    width: 15%;
+    height: 15%;
+} 
+.PBandSpeed .Fleche img{
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    height: 10%;
+    width: 10%;
 }
-//A MODIFIER
