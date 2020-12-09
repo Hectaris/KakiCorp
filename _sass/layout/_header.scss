@@ -1,4 +1,22 @@
-h1{
-    font-size: large;
+$header_BackgroundColor: #FAF3DD;
+header {
+    width: 100%;
+    height: 10vh;
 }
-//A MODIFIER
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    background-color: $header_BackgroundColor;
+}
+
+header img {
+    height: 20px;
+    width: auto;
+}
+
+.header .titre_header {
+    font-size: 20px;
+    flex-wrap: nowrap;
+}
