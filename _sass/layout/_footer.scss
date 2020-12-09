@@ -1,6 +1,8 @@
-p{
+.text p{
     color:#2d3034 ;
-    font-size:10px;
+    font-size:15px;
+    font-family: "GTWalsheimPro-CondensedRegular", sans-serif;
+    height: 1%;
 }
 
 .fond_footer{
@@ -8,7 +10,6 @@ p{
 }
 
 .flex{
-    padding : 0 0 0 0 ;
     display: flex;
     justify-content: space-between;
 }
