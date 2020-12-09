@@ -1,0 +1,24 @@
+.menuAccueil{
+    font-family: $Helvetica;
+}
+
+
+
+
+
+.button {
+    background-color: $buttonColor;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center ;
+    color: $yellowcolor;
+    margin: 10vh;
+}
+.button p{
+    font-family: 'Helvetica';
+}
+.button:hover {
+    background-color: $yellowcolor;
+    color: $bodyColor;
+}
