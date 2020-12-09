@@ -92,6 +92,7 @@ $fontSize: 20px;
 
 .overlay-is-gone {
     left: 200vw;
+    
 }
 
 .column-is-active {
@@ -99,11 +100,12 @@ $fontSize: 20px;
 }
 
 .column-gone {
+   
     right: -80vw;
 }
 
 .menu_appear_column {
-    transition:  2s;
+    transition:  right 1s;
     color: $fontColor;
     position: fixed;
     display: flex;
