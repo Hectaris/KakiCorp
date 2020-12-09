@@ -9,7 +9,9 @@
     padding-right: 1VH;
 }
 .PBandSpeed{
-    background-color: $yellowcolor;    
+    background-color: $yellowcolor;   
+    display: flex;
+    justify-content: center; 
     margin-top: 3em;
     margin-bottom: 6em;
     margin-right: auto;
@@ -54,6 +56,7 @@
 } 
 .PBandSpeed .Fleche img{
     margin-left: auto;
+    text-align: center;
     margin-right: auto;
     height: 10%;
     width: 10%;
