@@ -10,6 +10,7 @@ $fontFamily: "gt walsheim pro",
 sans-serif;
 $fontWeight: 400;
 $fontSize: 20px;
+
 .header {
     background-color: $header_BackgroundColor;
     color: $fontColor;
@@ -83,29 +84,31 @@ $fontSize: 20px;
     width: 100vw;
     position: fixed;
     top: 0;
-    transition: left 1s;
-}
+transition-duration:  1s;
+} 
 
 .overlay-is-active {
     left: 0;
 }
 
+
 .overlay-is-gone {
-    left: 200vw;
+    left: 100vw;
     
 }
 
 .column-is-active {
     right: 0;
+
 }
 
 .column-gone {
-   
-    right: -80vw;
+    left: 200vw;
+    right: -200vw;
 }
 
 .menu_appear_column {
-    transition:  right 1s;
+    transition-duration:  1s;
     color: $fontColor;
     position: fixed;
     display: flex;
@@ -116,6 +119,7 @@ $fontSize: 20px;
     height: 100%;
     width: 70vw;
     .fermer_header {
+        transition-duration:  1s;
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
@@ -131,6 +135,7 @@ $fontSize: 20px;
         }
     }
     .text_menu {
+        transition-duration:  1s;
         width: 100%;
         height: 65vh;
         display: flex;
