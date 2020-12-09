@@ -9,8 +9,12 @@
 .oursClinOeil{
     display: flex;
     justify-content: center;
-    height: 15vh;
+   
     margin: 5vh;
+    img {
+        height: 15vh;
+        width: auto;
+    }
 }
 .devise{
     text-align: center;
@@ -63,6 +67,11 @@
 .fleche{
     display: flex;
     justify-content: center;
-    height: 3.5vh;
+    
     margin: 1vh;
+    img {
+        height: 3.5vh;
+    width: auto;
+    
+    }
 }
