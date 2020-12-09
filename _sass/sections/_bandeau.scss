@@ -3,8 +3,8 @@
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    padding-top: 7vw;
-    padding-bottom: 7vw;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
     padding-left: 1vh;
     padding-right: 1VH;
     h2{
@@ -21,5 +21,8 @@
     margin-left: auto;
     display: block;
 }
-
+.chrono{
+    display: flex;
+    justify-content: space-around;
+}
 //A MODIFIER
