@@ -20,8 +20,8 @@
 }
 
 .pos_fleche{
-    align-items: center;
-    vertical-align: center;
+    height: auto;
+    width: 50%;
 }
 
 .hyperlien{
@@ -47,6 +47,8 @@
     background-color: pink;
     height: auto;
     width: 140%;
+    display: flex;
+    flex-direction: column;
 }
 
 .t_hautdepage{
