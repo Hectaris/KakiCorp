@@ -1,34 +1,60 @@
 .menuAccueil{
     font-family: $Helvetica;
+    color: $bodyColor;
 }
 .welcome{
     margin-top: 12vh;
-    font-family: 'gt walsheim pro bold';
+    font-family: "GTWalsheimPro", sans-serif;
     text-align: center;
+    font-weight: bold;
+}
+;.welcome P{
+    font-size: x-large;
 }
 .oursClinOeil{
     display: flex;
     justify-content: center;
     height: 15vh;
+    width: auto;
     margin: 5vh;
+}
+.oursClinOeil img{
+    
 }
 .devise{
     text-align: center;
     margin-bottom: 5vh;
+
+}
+.devise h2{
+    font-family: "GTWalsheimPro", sans-serif;
+    margin: 0 10vh 0 10vh;
+}
+.problemClass{
+
 }
 .problem{
     text-align: center;
     margin-bottom: 4vh;
 }
+.problem p{
+    margin: 0 10vh 0 10vh;
+}
 .cuisineUnJeu{
     text-align: center;
     margin-bottom: 5vh;
+}
+.cuisineUnJeu p{
+    margin: 0 10vh 0 10vh;
 }
 .temps{
     text-align: center;
     margin-bottom: 1.5vh;
 }
-
+.temps p{
+    font-size: small;
+    margin: 0 10vh 0 10vh;
+}
 .buttonClique{
     display: flex;
     justify-content: center;
@@ -40,8 +66,9 @@
     background-color: $buttonColor;
     color: $yellowcolor;
     height: 6vh;
-    width: 21vh;
+    width: 27vh;
     text-decoration: none;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .button p{
     font-family: 'Helvetica';
@@ -50,6 +77,7 @@
 }
 .montre{
     height: 3.5vh;
+    width: auto;
 }
 .button:hover {
     background-color: $yellowcolor;
@@ -64,5 +92,6 @@
     display: flex;
     justify-content: center;
     height: 3.5vh;
+    width: auto;
     margin: 1vh;
 }
