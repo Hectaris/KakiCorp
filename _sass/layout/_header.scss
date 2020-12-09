@@ -1,5 +1,8 @@
 $header_BackgroundColor: #FAF3DD;
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
     font-family: "GTWalsheimPro-CondensedRegular", sans-serif;
     display: flex;
     align-items: center;
