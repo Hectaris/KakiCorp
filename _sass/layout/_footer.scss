@@ -7,11 +7,16 @@
 
 .fond_footer{
     background-color:#faf3dd ;
+    margin-top: 200%;
 }
 
 .flex{
     display: flex;
     justify-content: space-between;
+}
+
+.flex_mentions{
+    display: flex;
 }
 
 .pos_fleche{
@@ -20,4 +25,34 @@
 
 .hyperlien{
     color: $buttonColor;
+}
+
+.dim_rsx img{
+     width: 20%;
+     height: auto;
+}
+
+.boite_rsx{
+    margin-top: 3%;
+    width: 68%;
+    height: auto;
+}
+.dim_kaki img{
+    width: 30%;
+    height: auto;
+}
+
+.boite_hautdepage{
+    background-color: pink;
+    height: auto;
+    width: 150%;
+}
+
+.t_hautdepage{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.t_adress{
+    font-size: 10px;
 }
