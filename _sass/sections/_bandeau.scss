@@ -1,6 +1,6 @@
 .BandSpeed{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
     padding-top: 6vw;
@@ -11,7 +11,7 @@
 .PBandSpeed{
     background-color: $yellowcolor;   
     display: flex;
-    justify-content: center; 
+    justify-content: space-around; 
     margin-top: 3em;
     margin-bottom: 6em;
     margin-right: auto;
@@ -23,19 +23,23 @@
     font-weight: bold;
     font-size: 20px;
 }
-.chrono{
+.chrona{
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: nowrap;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 10px;
+    margin-top: 0;
 
 }
-.chrono p{
+.chrona p{
     text-align: center;
 }
-
+.PbandSpeed .chrona img{
+    width: 20%;
+    height: 20%;
+}
 .PBandSpeed img{
     width: 22%;
     height: 22%;
@@ -45,9 +49,9 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-top: 2vw;
+    padding-top: 3vw;
     padding-bottom: 6vw;
-    padding-left: 1vh;
+    padding-left: 3vh;
     padding-right: 1VH;
 }
 .BandCuistot img{
