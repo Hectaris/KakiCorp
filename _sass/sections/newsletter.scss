@@ -1,5 +1,4 @@
 $newsletterBoxColor: #AED9E0;
-$Helvetica: 'Helvetica';
 .newsletter_box {
     display: flex;
     flex-direction: column;
@@ -9,15 +8,33 @@ $Helvetica: 'Helvetica';
     background-color: red;
     height: 50vh;
     width: 100%;
-    .title_newletter {
-        p {
-            font-family: 'gt walsheim pro bold';
-        }
+}
+
+.title_newletter {
+    background-color: sandybrown;
+    font-family: 'gt walsheim pro bold';
+    p {
+        font-size: 20px;
+        font-family: 'gt walsheim pro bold';
     }
 }
 
 .newsletter {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
     background-color: royalblue;
     width: 60%;
     height: 60%;
+    .newsletter_inside_title {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+    form {
+        input {
+            width: 80%;
+            margin-bottom: 5%;
+        }
+    }
 }
