@@ -1,5 +1,5 @@
 <section>
-    <div class="PBandSpeed">
+    <div id="PBandSpeed" class="PBandSpeed">
         <center>
             <div class="BandSpeed">
                 <img class="oursBand" src="/assets/img/picto/ourson/oursspeed.png" alt="Ourson pressé">
@@ -12,7 +12,7 @@
         </center>
         <div class="Fleche">
             <center>
-                <a id="recetteSpeedBtn" href="#"><img class="Fleche" src="/assets/img/Menu_accueil/arrows/fleche.png" alt="lien recette speed"></a>
+                <a id="recetteSpeedBtn" href="#PlusDeRecettes"><img class="Fleche" src="/assets/img/Menu_accueil/arrows/fleche.png" alt="lien recette speed"></a>
             </center>
 
             <script>
@@ -28,7 +28,7 @@
             </script>
         </div>
     </div>
-    <div class="PBandSpeed">
+    <div id="PBandGourmand" class="PBandSpeed">
         <div class="BandSpeed">
             <img class="oursBand" src="/assets/img/picto/ourson/oursmiam.png" alt="Ourson miam">
             <h2><strong>LA RECETTE <br>GOURMANDE</strong></h2>
@@ -39,11 +39,22 @@
         </div>
         <div class="Fleche">
             <center>
-                <img class="Fleche" src="/assets/img/Menu_accueil/arrows/fleche.png" alt="lien recette gourmande">
+                <a id="recetteRecetteGourmande" href="#PlusDeRecettes"><img class="Fleche" src="/assets/img/Menu_accueil/arrows/fleche.png" alt="lien recette gourmande"></a>
             </center>
+            <script>
+                document.getElementById("recetteRecetteGourmande").addEventListener("click", function() {
+                    {
+
+
+                        document.getElementById("").style.display = 'block';
+
+
+                    }
+                });
+            </script>
         </div>
     </div>
-    <div class="PBandSpeed">
+    <div id="PBandCuistot" class="PBandSpeed">
         <div class="BandCuistot">
             <img class="oursBand" src="/assets/img/picto/ourson/ourschef.png" alt="Ourson chef">
             <h2><strong>LA RECETTE <br>CUISTOT</strong></h2>
@@ -54,7 +65,7 @@
         </div>
         <div id="SavaisTu" class="Fleche">
             <center>
-                <img src="/assets/img/Menu_accueil/arrows/fleche.png" alt="lien recette cuistot">
+                <a id="recetteCuistot" href="#PlusDeRecettes"><img src="/assets/img/Menu_accueil/arrows/fleche.png" alt="lien recette cuistot"></a>
             </center>
         </div>
     </div>

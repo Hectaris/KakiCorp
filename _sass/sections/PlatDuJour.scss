@@ -1,53 +1,92 @@
 .container {
     width: 100vw;
-    height: 760px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    .box_croix {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     .ingredient{
         height: 4vh;
         width: auto;
         margin-right: 10%;
     }
-    .recette{
+    .recette {
         height: 100%;
         width: 90%;
         margin-bottom: 5%;
     }
-    
-    .textecommun{
-        font-family: $Helvetica, regular;
-        text-align: justify;
+    .textecommun {
+        font-family: $Helvetica;
         font-size: medium;
+        p {
+            text-align: center;
+        }
     }
-    .titre{
-        font-family: $WalsheimBold;
+}
+
+.titre {
+    font-family: $WalsheimBold;
+    text-align: center;
+    font-size: 2em;
+    padding: 0;
+    margin-top: 2.5%;
+}
+
+.soustitre2 {
+    font-family: $Walsheim;
+    text-align: center;
+    font-size: larger;
+    padding: 0;
+}
+
+.soustitre3 {
+    font-family: $Walsheim;
+    text-align: center;
+    font-size: medium;
+    padding: 0;
+}
+
+h3 {
+    margin-top: 1em;
+}
+
+.trait {
+    border-top: 2px solid $yellowcolor;
+    margin: 0;
+}
+
+.topbox {
+    background-color: $backgroundColor;
+    width: 100%;
+    height: 15.8%;
+    // padding: 0px 11px 20px;
+    box-sizing: border-box;
+    h1 {
         text-align: center;
-        font-size: 2em;
+        font-size: 20px;
         padding: 0;
         margin-top: 2.5%;
     }
-    .soustitre2{
-        font-family: $Walsheim;
+    h2 {
+        margin-bottom: 1.5em;
+    }
+    p {
         text-align: center;
-        font-size: larger;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    hr {
+        margin-bottom: 8px;
         padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 15%;
+        margin-right: 15%;
     }
-    .soustitre3{
-        font-family: $Walsheim;
-        text-align: center;
-        font-size: medium;
-        padding: 0;
-    }
-    h3{
-        margin-top: 1em;
-    }
-    .trait{
-        border-top: 2px solid $yellowcolor;
-        margin: 0;
-    }
+}
 
+<<<<<<< HEAD
     .flechefloat {
         display: flex;
         justify-content: center;
@@ -65,19 +104,28 @@
         background-color:$backgroundColor;
         width: 100%;
         height: 15.8%;
+=======
+.mid {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 39.9%;
+    margin-bottom: 10%;
+    margin-top: 20px;
+    .midleft {
+        padding: 10% 5% 5%;
+        width: 50%;
+        height: 100%;
+>>>>>>> 7c944de426236c07bdd7c5f48568ab230f6cf989
         box-sizing: border-box;
-        h1{
-            text-align: center;
+        #traitup {
+            padding: 0;
+            margin-bottom: 8px;
+            margin-left: 1%;
+            margin-right: 1%;
+            transform: translateY(-2.2em);
         }
-        h2{
-            margin-bottom: 1.5em;
-        }
-        p{
-            text-align: center;
-            margin-top: 2%;
-            margin-bottom: 2%;
-        }
-        hr{
+        #traitdown {
             margin-bottom: 8px;
             padding: 0;
             margin-top: 0;
@@ -99,14 +147,14 @@
             box-sizing: border-box;
 
 
-            #traitup{
+            .trait-up{
                 padding: 0;
                 margin-bottom: 8px;
                 margin-left: 1%;
                 margin-right: 1%;
                 transform: translateY(-2.2em);
             }
-            #traitdown{
+            .trait-down{
                 margin-bottom: 8px;
                 padding: 0;
                 margin-left: 1%;
@@ -119,23 +167,36 @@
                 font-size: 0.86em;
             }
         }
+<<<<<<< HEAD
         .midrighttop {
             width: 50%;
             height: 50%;
             box-sizing: border-box;
 
+=======
+        p {
+            line-height: 3em;
+            font-size: 0.86em;
+>>>>>>> 7c944de426236c07bdd7c5f48568ab230f6cf989
         }
     }
-    .bottonbox{
-        align-self: flex-end;
-        background-color: $yellowcolor;
-        padding: 5%;
+    .midrighttop {
+        // background-color: rgb(0, 255, 55);
+        width: 50%;
+        height: 50%;
         box-sizing: border-box;
-        width: 100%;
-        height: 58.1%;
-        p{
-            line-height: 2em;
-            margin-top: 0.5em;
-        }
+    }
+}
+
+.bottonbox {
+    align-self: flex-end;
+    background-color: $yellowcolor;
+    padding: 5%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 58.1%;
+    p {
+        line-height: 2em;
+        margin-top: 0.5em;
     }
 }
