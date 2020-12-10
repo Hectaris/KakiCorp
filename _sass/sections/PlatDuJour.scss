@@ -86,25 +86,6 @@ h3 {
     }
 }
 
-<<<<<<< HEAD
-    .flechefloat {
-        display: flex;
-        justify-content: center;
-        height: 3.5vh;
-        width: auto;
-        margin: 0vh 0vh 2vh;
-        overflow: hidden;
-        transform: translateY(0px);
-        animation-name: float;
-        animation-duration: 2.5s;
-    }
-    
-
-    .topbox{
-        background-color:$backgroundColor;
-        width: 100%;
-        height: 15.8%;
-=======
 .mid {
     display: flex;
     flex-direction: row;
@@ -116,7 +97,6 @@ h3 {
         padding: 10% 5% 5%;
         width: 50%;
         height: 100%;
->>>>>>> 7c944de426236c07bdd7c5f48568ab230f6cf989
         box-sizing: border-box;
         #traitup {
             padding: 0;
@@ -167,17 +147,9 @@ h3 {
                 font-size: 0.86em;
             }
         }
-<<<<<<< HEAD
-        .midrighttop {
-            width: 50%;
-            height: 50%;
-            box-sizing: border-box;
-
-=======
         p {
             line-height: 3em;
             font-size: 0.86em;
->>>>>>> 7c944de426236c07bdd7c5f48568ab230f6cf989
         }
     }
     .midrighttop {
