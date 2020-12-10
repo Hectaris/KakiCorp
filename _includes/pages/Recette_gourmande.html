@@ -1,7 +1,16 @@
-<div class="recette_gourmande_box popin-recette">
+<div id="RGpopup" class="recette_gourmande_box popin-recette">
     <section class="container">
         <div class="box_croix">
-            <img src="assets/img/picto/croix.png">
+            <a href="#PlusDeRecettes" class="croix" id="croixRG">
+                <img src="/assets/img/picto/cancel.png" alt="">
+            </a>
+            <script>
+                document.getElementById('croixRG').addEventListener('click', function() {
+        
+                    document.getElementById('RGpopup').style.display = 'none'
+        
+                })
+            </script>
         </div>
         <div class="topbox">
             <h1 class="titre">La recette GOURMANDE</h1>
