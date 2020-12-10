@@ -7,11 +7,19 @@ $newsletterBoxColor: #FFA69E;
     position: relative;
     height: 50vh;
     width: 100%;
+    img {
+        position: relative;
+        transform: rotate(30deg);
+        width: 70px;
+        height: auto;
+        top: 35px;
+        right: -34%;
+    }
 }
 
 .title_newsletter {
     font-family: $Walsheim;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 30px;
 }
 
@@ -49,6 +57,7 @@ $newsletterBoxColor: #FFA69E;
             color: #FAF3DD;
             border: none;
             background-color: #43528E;
+            filter: drop-shadow(0 0.3vh 0.6vh rgba(0, 0, 0, 0.5));
         }
         input:focus {
             outline: 3px solid #AED9E0;
