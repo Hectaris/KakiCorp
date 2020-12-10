@@ -2,7 +2,7 @@
 
 Bienvenue sur ce README
 
-![alt text](/assets/image/logo.png)
+![alt text](https://zupimages.net/viewer.php?id=20/50/3syi.png)
 
 Vous vous trouvez sur le code du site BEARSCOOKING
 
