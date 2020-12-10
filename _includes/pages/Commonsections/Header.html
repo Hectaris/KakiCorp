@@ -35,14 +35,25 @@
                 </script>
             </div>
             <div class="text_menu">
-                <p><a href="">Le plat du jour</a></p>
-                <p><a href="">La recette Speed</a></p>
-                <p><a href="">La recette Gourmande</a></p>
-                <p><a href="">La recette Cuistot</a></p>
-                <p><a href="">Le savais-tu ?</a></p>
-                <p><a href="">On garde contact ?</a></p>
+                <p><a id="scrollMenu" href="#">Le plat du jour</a></p>
+                <p><a id="scrollMenu" href="#">La recette Speed</a></p>
+                <p><a id="scrollMenu" href="#">La recette Gourmande</a></p>
+                <p><a id="scrollMenu" href="#">La recette Cuistot</a></p>
+                <p><a id="scrollMenu" href="#">Le savais-tu ?</a></p>
+                <p><a id="scrollMenu" href="#">On garde contact ?</a></p>
             </div>
         </div>
 
     </div>
+    <script>
+        document.getElementById("scrollMenu").addEventListener("click", function() {
+            {
+
+                document.getElementById("menuGone").classList.remove('overlay-is-active');
+                document.getElementById("menuGoneColumn").classList.remove('column-is-active');
+                document.getElementById("menuGone").classList.add('overlay-is-gone');
+                document.getElementById("menuGoneColumn").classList.add('column-is-gone');
+            }
+        });
+    </script>
 </div>
