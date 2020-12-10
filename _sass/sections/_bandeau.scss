@@ -1,6 +1,6 @@
 .BandSpeed{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     align-items: center;
     padding-top: 6vw;
@@ -9,14 +9,14 @@
     padding-right: 1VH;
 }
 .PBandSpeed{
-    background-color: $yellowcolor;   
-    display: flex;
-    justify-content: space-around; 
+    background-color: $yellowcolor; 
+    // display: flex;
+    // justify-content: center;  
+    align-items: center;
     margin-top: 3em;
     margin-bottom: 6em;
     margin-right: auto;
     margin-left: auto;
-    display: block;
 }
 .PBandSpeed h2{
     font-family: 'gt walsheim pro';
@@ -24,29 +24,26 @@
     font-size: 20px;
 }
 .chrona{
-    align-items: center;
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
+    align-items: center;
     flex-wrap: nowrap;
     font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 10px;
+    font-size: 8px;
     margin-top: 0;
 
 }
 .chrona p{
     text-align: center;
 }
-.PbandSpeed .chrona img{
-    width: 20%;
-    height: 20%;
-}
+
 .PBandSpeed img{
     width: 22%;
     height: 22%;
 }
 .BandCuistot{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     align-items: center;
     padding-top: 3vw;
@@ -55,8 +52,8 @@
     padding-right: 1VH;
 }
 .BandCuistot img{
-    width: 15%;
-    height: 15%;
+    width: 16%;
+    height: 16%;
 } 
 .PBandSpeed .Fleche img{
     margin-left: auto;
@@ -64,4 +61,8 @@
     margin-right: auto;
     height: 10%;
     width: 10%;
+}
+.chrona img{
+    width: 15%;
+    height: 15%;
 }
