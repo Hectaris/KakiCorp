@@ -1,41 +1,66 @@
-.menuAccueil{
+.menuAccueil {
     font-family: $Helvetica;
+    font-weight: normal;
+    color: $bodyColor;
 }
-.welcome{
+.welcome {
     margin-top: 12vh;
-    font-family: 'gt walsheim pro bold';
     text-align: center;
 }
-.oursClinOeil{
+.welcome P {
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "GTWalsheimPro-CondensedRegular", sans-serif;
+    text-transform: uppercase;
+}
+.oursClinOeil {
     display: flex;
     justify-content: center;
-   
+    height: 15vh;
+    width: auto;
     margin: 5vh;
-    img {
-        height: 15vh;
-        width: auto;
-    }
 }
-.devise{
+.oursClinOeil img {
+    height: 15vh;
+    width: auto;
+    filter: drop-shadow(0 0.3vh 0.6vh rgba(0, 0, 0, 0.5));
+}
+.devise {
     text-align: center;
     margin-bottom: 5vh;
 }
-.problem{
+.devise h2 {
+    font-family: "GTWalsheimPro-CondensedRegular", sans-serif;
+    margin: 0 10vh 0 10vh;
+    text-transform: uppercase;
+}
+
+.problem {
     text-align: center;
     margin-bottom: 4vh;
 }
-.cuisineUnJeu{
+.problem p {
+    margin: 0 10vh 0 10vh;
+}
+.cuisineUnJeu {
     text-align: center;
     margin-bottom: 5vh;
 }
-.temps{
+.cuisineUnJeu p {
+    margin: 0 10vh 0 10vh;
+}
+.temps {
     text-align: center;
     margin-bottom: 1.5vh;
 }
-
-.buttonClique{
+.temps p {
+    font-size: small;
+    margin: 0 10vh 0 10vh;
+}
+.buttonClique {
     display: flex;
     justify-content: center;
+    filter: drop-shadow(0 0.3vh 0.6vh rgba(0, 0, 0, 0.5));
 }
 .button {
     display: flex;
@@ -44,34 +69,36 @@
     background-color: $buttonColor;
     color: $yellowcolor;
     height: 6vh;
-    width: 21vh;
+    width: 27vh;
     text-decoration: none;
 }
-.button p{
-    font-family: 'Helvetica';
+.button p {
+    font-family: "Helvetica";
     text-align: center;
     font-weight: bold;
 }
-.montre{
+.montre {
     height: 3.5vh;
+    width: auto;
 }
 .button:hover {
     background-color: $yellowcolor;
     color: $bodyColor;
 }
-.recettes{
-    margin-top: 10vh;
+.recettes {
+    margin-top: 13vh;
     text-align: center;
     font-weight: bold;
 }
-.fleche{
+.fleche {
     display: flex;
     justify-content: center;
-    
-    margin: 1vh;
-    img {
-        height: 3.5vh;
+    height: 3.5vh;
     width: auto;
-    
-    }
+    margin: 0.5vh 0 2vh 0;
+}
+.fleche img {
+    height: 3.5vh;
+    width: auto;
+    filter: drop-shadow(0 0.3vh 0.6vh rgba(67, 82, 142, 0.5));
 }
