@@ -27,6 +27,7 @@
 
 .hyperlien{
     color: $buttonColor;
+    font-size: 100%;
 }
 
 .dim_rsx img{
@@ -47,9 +48,8 @@
 
 .boite_hautdepage{
     height: auto;
-    width: 200%;
-    display: flex;
-    flex-direction: column;
+    width: 250%;
+    text-align: center;
 }
 
 .t_hautdepage{
@@ -72,4 +72,19 @@
 
 .boite_contact{
     margin-bottom: 3%;
+}
+
+.padding_top{
+    margin-top: 5%;
+}
+
+.dim_fleche{
+    width: 30%;
+    height: auto;
+}
+
+.hautdepage_txt{
+    font-size: 90%;
+    font-weight: bold;
+    color: $buttonColor;
 }
