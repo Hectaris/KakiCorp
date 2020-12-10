@@ -3,13 +3,21 @@
     src: url("/assets/fonts/GTWalsheimPro-CondensedRegular.ttf")};
   
 @font-face {
-    font-family: 'gt walsheim pro bold';
+    font-family: "gt walsheim pro bold";
     src: url("/assets/fonts/GTWalsheimPro-Bold.ttf");
   }
   @font-face {
     font-family: 'Helvetica';
     src: url("/assets/fonts/Helvetica.ttf");
   }
+@font-face{
+  font-family: "gt walsheim pro regular";
+  src: url("/assets/fonts/GTWalsheimPro-Regular.ttf");
+}
+
+
+
+
 
 $Helvetica: 'Helvetica';
 
