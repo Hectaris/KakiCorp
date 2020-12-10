@@ -1,8 +1,18 @@
 $newsletterBoxColor : #AED9E0;
 
 .newsletter_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 position: relative;
 background-color: red;
 height: 50vh;
 width: 100%;
+}
+
+.newsletter {
+    background-color: royalblue;
+    width: 60%;
+    height : 60%;
 }
