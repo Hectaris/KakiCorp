@@ -17,6 +17,8 @@
   font-family: 'GT Walsheim Pro';
   font-size: 19px;
   margin-top: 40px;
+  padding-left: 3vh;
+
 
 }
 
@@ -30,12 +32,21 @@
   }
 }
 
+.soustitre2{
+  font-family: $Walsheim;
+  text-align: center;
+  font-size: 30px;
+  padding-left: 3vh;
+  margin-top: 15px;
+}
+
 .chrono{
   margin-top: 25px;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-left: 3vh;
  
 
 }
@@ -44,14 +55,14 @@
   font-size: 12px;
 }
 
-.texteoeuf h2{
-  font-family: 'GTWalsheimPro-CondensedRegular';
-  text-align: center;
-  margin-top: 20px;
-  font-size: 30px;
-  padding-left: 18px;
+// .texteoeuf h2{
+//   font-family: 'GTWalsheimPro-CondensedRegular';
+//   text-align: center;
+//   margin-top: 20px;
+//   font-size: 30px;
+//   padding-left: 18px;
 
-}
+// }
 .barre{
   position: relative;
   width: 165px;
