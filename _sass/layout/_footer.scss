@@ -1,89 +1,89 @@
-.text{
-    color:#2d3034 ;
-    font-size:100%;
+.text {
+    color: #2d3034;
+    font-size: 100%;
     font-family: "gt walsheim pro bold", sans-serif;
-    height: 1%;
+    height: 45vh;
 }
 
-.fond_footer{
-    background-color:#faf3dd ;
-    margin-top: 200%;
+.fond_footer {
+    background-color: #faf3dd;
 }
 
-.marge{
+.marge {
     margin-left: 3%;
     margin-right: 3%;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
 }
 
-.flex_mentions{
+.flex_mentions {
     display: flex;
     margin-bottom: 5%;
 }
 
-.hyperlien{
+.hyperlien {
     color: $buttonColor;
     font-size: 100%;
 }
 
-.dim_rsx img{
-     width: 20%;
-     height: auto;
+.dim_rsx img {
+    width: 20%;
+    height: auto;
 }
 
-.boite_rsx{
+.boite_rsx {
     margin-top: 5%;
     margin-bottom: 5%;
     width: 68%;
     height: auto;
 }
-.dim_kaki{
+
+.dim_kaki {
     width: 23%;
     height: auto;
 }
 
-.boite_hautdepage{
+.boite_hautdepage {
     height: auto;
     width: 250%;
     text-align: center;
 }
 
-.t_hautdepage{
+.t_hautdepage {
     font-size: 10px;
     font-weight: bold;
 }
 
-.t_adress{
+.t_adress {
     font-size: 90%;
 }
 
-.lacouleurbeige{
+.lacouleurbeige {
     color: $yellowcolor;
 }
 
-.flex_kaki{
+.flex_kaki {
     display: flex;
     justify-content: space-between;
 }
 
-.boite_contact{
+.boite_contact {
     margin-bottom: 3%;
 }
 
-.padding_top{
+.padding_top {
     margin-top: 5%;
 }
 
-.dim_fleche{
+.dim_fleche {
     width: 30%;
     height: auto;
 }
 
-.hautdepage_txt{
+.hautdepage_txt {
     font-size: 90%;
     font-weight: bold;
     color: $buttonColor;

@@ -49,6 +49,7 @@ $newsletterBoxColor: #FFA69E;
             color: #FAF3DD;
             border: none;
             background-color: #43528E;
+            filter: drop-shadow(0 0.3vh 0.6vh rgba(0, 0, 0, 0.5));
         }
         input:focus {
             outline: 3px solid #AED9E0;
