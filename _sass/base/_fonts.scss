@@ -1,14 +1,17 @@
 @font-face {
     font-family: "gt walsheim pro";
-    src: url("../fonts/GTWalsheimPro-CondensedRegular.ttf");
-  }
+    src: url("/assets/fonts/GTWalsheimPro-CondensedRegular.ttf;"}
   
 @font-face {
     font-family: 'gt walsheim pro bold';
-    src: url("../fonts/GTWalsheimPro-Bold.ttf");
+    src: url("/assets/fonts/GTWalsheimPro-Bold.ttf");
+  }
+  @font-face {
+    font-family: 'Helvetica';
+    src: url("/assets/fonts/Helvetica.ttf");
   }
 
-$Helvetica: 'Helvetica', 'Arial', sans-serif;
+$Helvetica: 'Helvetica';
 
 $Walsheim: "gt walsheim pro";
 $WalsheimBold: 'gt walsheim pro bold';
