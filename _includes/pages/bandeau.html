@@ -65,8 +65,19 @@
         </div>
         <div id="SavaisTu" class="Fleche">
             <center>
-                <a id="recetteCuistot" href="#PlusDeRecettes"><img src="/assets/img/Menu_accueil/arrows/fleche.png" alt="lien recette cuistot"></a>
+                <a id="recetteCuistotBtn" href="#PlusDeRecettes"><img src="/assets/img/Menu_accueil/arrows/fleche.png" alt="lien recette cuistot"></a>
             </center>
+            <script>
+                document.getElementById("recetteCuistotBtn").addEventListener("click", function() {
+                    {
+
+
+                        document.getElementById("menuCuistot").style.display = 'block';
+
+
+                    }
+                });
+            </script>
         </div>
     </div>
 </section>
