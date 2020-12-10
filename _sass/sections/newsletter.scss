@@ -1,21 +1,23 @@
-$newsletterBoxColor : #AED9E0;
-$Helvetica : 'Helvetica';
+$newsletterBoxColor: #AED9E0;
+$Helvetica: 'Helvetica';
 .newsletter_box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-position: relative;
-background-color: red;
-height: 50vh;
-width: 100%;
-.title_newletter {
-    font-family: $Helvetica; 
-}
+    position: relative;
+    background-color: red;
+    height: 50vh;
+    width: 100%;
+    .title_newletter {
+        p {
+            font-family: 'gt walsheim pro bold';
+        }
+    }
 }
 
 .newsletter {
     background-color: royalblue;
     width: 60%;
-    height : 60%;
+    height: 60%;
 }
