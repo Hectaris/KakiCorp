@@ -1,0 +1,80 @@
+.CookiesMenu{
+    background-color: rgba($color: #FAF3DD, $alpha: 0.7);
+    position: fixed;
+    width: 100vw;
+    height: 150vh;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.PostCookies{
+    position: fixed;
+    left: 10vw;
+    top: 30vh;
+    z-index: 1001;
+    opacity: 1;
+}
+.txtcookies H2{
+    color: $bodyColor;
+    position: fixed;
+    left: 38vw;
+    top: 33vh;
+    z-index: 1002;
+    opacity: 1;
+    font-family: 'gt walsheim pro bold';
+}
+.txtcookies p{
+    color: $bodyColor;
+    position: fixed;
+    left: 23vw;
+    top: 40vh;
+    z-index: 1002;
+    opacity: 1;
+    font-size: 15;
+    text-align: center;
+    font-family: 'gt walsheim pro';
+}
+.DrawCookie{
+    position: fixed;
+    left: 72vw;
+    top: 32vh;
+    z-index: 1003;
+    opacity: 1;
+}
+.ButtonCookie{
+    position: fixed;
+    text-align: center;
+    left: 35vw;
+    top: 53vh;
+    z-index: 1003;
+    opacity: 1;
+    background-color: $buttonColor;
+    color: $yellowcolor;
+    height: 4vh;
+    width: 15vh;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 25;
+    padding-top: 2vh;
+    border-width: 0;
+}
+
+.lienCookies P{
+    color: $bodyColor;
+    position: fixed;
+    left: 35vw;
+    top: 61vh;
+    z-index: 1002;
+    opacity: 1;
+    font-size: 15;
+    text-align: center;
+    font-family: 'gt walsheim pro';
+}
+.lienCookies a{
+    color: $buttonColor;
+    text-decoration: underline $buttonColor;
+
+    
+    
+}
