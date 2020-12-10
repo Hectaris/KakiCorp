@@ -19,7 +19,7 @@
 .croix {
     position: absolute;
     top: 5vh;
-    left: 5vh;
+    left: 2vh;
     img {
         width: 20px;
         height: 20px;
@@ -40,11 +40,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 3vh;
 }
 
 .chrono h3 {
-    font-family: 'Helvetica Neue';
+    font-family: $Helvetica;
     font-size: 12px;
 }
 
@@ -66,10 +65,10 @@
 
 .containerbox {
     position: relative;
-    background-color: transparent;
     padding: 0px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     p {
         font-family: $Helvetica;
     }
