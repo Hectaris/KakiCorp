@@ -1,10 +1,11 @@
 .container {
     width: 100vw;
-    height: 760px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    .box_croix {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     .ingredient{
         height: 4vh;
         width: auto;
@@ -24,7 +25,7 @@
     .titre{
         font-family: $WalsheimBold;
         text-align: center;
-        font-size: 2em;
+        font-size: 20px;
         padding: 0;
         margin-top: 2.5%;
     }
@@ -87,14 +88,14 @@
             box-sizing: border-box;
 
 
-            #traitup{
+            .trait-up{
                 padding: 0;
                 margin-bottom: 8px;
                 margin-left: 1%;
                 margin-right: 1%;
                 transform: translateY(-2.2em);
             }
-            #traitdown{
+            .trait-down{
                 margin-bottom: 8px;
                 padding: 0;
                 margin-left: 1%;
