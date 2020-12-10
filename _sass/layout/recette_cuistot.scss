@@ -1,5 +1,4 @@
 .popin-recette {
-    display: none;
     box-sizing: border-box;
     position: fixed;
     top: 0;
@@ -8,4 +7,5 @@
     background-color: $backgroundColor;
     padding-top: 40px;
     overflow-y: scroll;
+    display: none;
 }
