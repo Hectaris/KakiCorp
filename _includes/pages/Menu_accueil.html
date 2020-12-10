@@ -22,10 +22,21 @@
     </div>
 
     <div class="buttonClique">
-        <a class="button" href="">
+        <a id="buttonClique" class="button" href="#">
             <p>Clique ici :</p>
             <img class="montre" src="/assets/img/picto/ingredients/stopwatch.png" alt="montre">
         </a>
+        <script>
+            document.getElementById("buttonClique").addEventListener("click", function() {
+                {
+
+
+                    document.getElementById("menuspeedpopup").style.display = 'block';
+
+
+                }
+            });
+        </script>
     </div>
     </div>
     <div class="recettes">
