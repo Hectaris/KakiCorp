@@ -1,5 +1,53 @@
 .recetteGourmande{
+    background-color: rgb(0, 153, 255);
     font-family: $Helvetica;
     font-weight: normal;
     color: $bodyColor;
+}
+.typeRecetteGroupe{
+    padding-top: 4vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.typeRecette{
+    margin-left: auto;
+    margin-right: auto;
+}
+.typeRecette p{
+    font-weight: bold;
+    font-size: small;
+    font-family: "gt walsheim pro bold";
+}
+.laCroix img{
+    margin-left: 2vh;
+    height: 4vh;
+    width: auto;
+    filter: drop-shadow(0 0.3vh 0.6vh rgba(0, 0, 0, 0.5));
+}
+.laCroix2 img{ 
+    margin-right: 2vh;
+    height: 4vh;
+    width: auto;
+    visibility: hidden;
+}
+.cronoTempsClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cronoTemps img{
+    margin-right: 1vh;
+    height: 3vh;
+    width: auto;
+}
+.indicateurTemps p{
+    font-size: small;
+}
+.nomRecette{
+    margin-top: 2vh;
+}
+.nomRecette p{
+    text-align: center;
+    font-family: "gt walsheim pro";
+    font-size: x-large;
 }
