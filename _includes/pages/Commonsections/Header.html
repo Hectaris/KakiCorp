@@ -3,7 +3,7 @@
     <h1 class="titre_header ">BearCooking</h1>
     <div id="burger" class="menu ">
         <a href="#" id="burger" class="menu_burger "><img src="/assets/img/picto/burger.png " alt="burger "></a>
-        <a href="#" id="burger" class="menu_title ">Menu</a>
+        <a href="#" id="burger" class="menu_title ">MENU</a>
         <script>
             document.getElementById("burger").addEventListener("click", function() {
                 {
@@ -36,18 +36,63 @@
                 </script>
             </div>
             <div class="text_menu">
-                <p><a id="scrollMenu" href="#">Le plat du jour</a></p>
-                <p><a id="scrollMenu" href="#">La recette Speed</a></p>
-                <p><a id="scrollMenu" href="#">La recette Gourmande</a></p>
-                <p><a id="scrollMenu" href="#">La recette Cuistot</a></p>
-                <p><a id="scrollMenu" href="#">Le savais-tu ?</a></p>
-                <p><a id="scrollMenu" href="#">On garde contact ?</a></p>
+                <p><a id="scrollMenu" href="#PlatDuJour">Le plat du jour</a></p>
+                <p><a id="scrollMenuMS" href="/_includes/pages/menuspeed.html">La recette Speed</a></p>
+                <p><a id="scrollMenuRG" href="/_includes/pages/Recette_gourmande.html">La recette Gourmande</a></p>
+                <p><a id="scrollMenuRC" href="/_includes/pages/">La recette Cuistot</a></p>
+                <p><a id="scrollMenuST" href="#SavaisTu">Le savais-tu ?</a></p>
+                <p><a id="scrollMenuNLB" href="#NewsLetterBox">On garde contact ?</a></p>
             </div>
         </div>
 
     </div>
     <script>
         document.getElementById("scrollMenu").addEventListener("click", function() {
+            {
+
+                document.getElementById("menuGone").classList.remove('overlay-is-active');
+                document.getElementById("menuGoneColumn").classList.remove('column-is-active');
+                document.getElementById("menuGone").classList.add('overlay-is-gone');
+                document.getElementById("menuGoneColumn").classList.add('column-is-gone');
+            }
+        });
+        document.getElementById("scrollMenuMS").addEventListener("click", function() {
+            {
+
+                document.getElementById("menuGone").classList.remove('overlay-is-active');
+                document.getElementById("menuGoneColumn").classList.remove('column-is-active');
+                document.getElementById("menuGone").classList.add('overlay-is-gone');
+                document.getElementById("menuGoneColumn").classList.add('column-is-gone');
+            }
+        });
+        document.getElementById("scrollMenuRG").addEventListener("click", function() {
+            {
+
+                document.getElementById("menuGone").classList.remove('overlay-is-active');
+                document.getElementById("menuGoneColumn").classList.remove('column-is-active');
+                document.getElementById("menuGone").classList.add('overlay-is-gone');
+                document.getElementById("menuGoneColumn").classList.add('column-is-gone');
+            }
+        });
+        document.getElementById("scrollMenuRC").addEventListener("click", function() {
+            {
+
+                document.getElementById("menuGone").classList.remove('overlay-is-active');
+                document.getElementById("menuGoneColumn").classList.remove('column-is-active');
+                document.getElementById("menuGone").classList.add('overlay-is-gone');
+                document.getElementById("menuGoneColumn").classList.add('column-is-gone');
+            }
+        });
+        document.getElementById("scrollMenuST").addEventListener("click", function() {
+            {
+
+                document.getElementById("menuGone").classList.remove('overlay-is-active');
+                document.getElementById("menuGoneColumn").classList.remove('column-is-active');
+                document.getElementById("menuGone").classList.add('overlay-is-gone');
+                document.getElementById("menuGoneColumn").classList.add('column-is-gone');
+            }
+        });
+        document.getElementById("scrollMenuNLB").addEventListener("click", function() {
             {
 
                 document.getElementById("menuGone").classList.remove('overlay-is-active');

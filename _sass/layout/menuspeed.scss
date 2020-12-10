@@ -1,32 +1,43 @@
+.menuspeedpopup{
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position:fixed;
+  top: 3vh;
+  bottom: 25vh;
+  background-color:#AED9E0 ;
+
+}
+
+
+
+
 .titre{
   text-align: center;
   font-family: 'GT Walsheim Pro';
-  font-size: 15px;
+  font-size: 19px;
   margin-top: 40px;
-  padding-right: 50px;
-}
-.croix1{
-  float: left;
-  width: 3px;
-  height: 20px;
-  margin-left: 7%;
-  margin-top: -5%;
-  position: relative;
-  transform: rotate(45deg);
-  background-color:#43528E;
-  
+  padding-left: 3vh;
+
+
 }
 
-.croix2{
-  
-  width: 3px;
-  height: 20px;
-  margin-left: 7%;
-  margin-top: -5%;  
-  position: relative;
-  transform: rotate(-45deg);
-  background-color:#43528E;
- 
+.croix{
+  position: absolute;
+  top: 5vh;
+  left: 5vh;
+  img{
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.soustitre2{
+  font-family: $Walsheim;
+  text-align: center;
+  font-size: 30px;
+  padding-left: 3vh;
+  margin-top: 15px;
 }
 
 .chrono{
@@ -35,26 +46,83 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-right: 8%;
+  padding-left: 3vh;
+ 
 
 }
-
-.texteoeuf h2{
-  font-family: 'GTWalsheimPro-CondensedRegular';
-  text-align: center;
-  margin-top: 20px;
-  font-size: 30px;
-  padding-right: 11px;
-
+.chrono h3{
+  font-family: 'Helvetica Neue';
+  font-size: 12px;
 }
-.box1{
+
+// .texteoeuf h2{
+//   font-family: 'GTWalsheimPro-CondensedRegular';
+//   text-align: center;
+//   margin-top: 20px;
+//   font-size: 30px;
+//   padding-left: 18px;
+
+// }
+.barre{
+  position: relative;
+  width: 165px;
+  margin-top: 30px;
+  margin-left: 1%;;
+  background-color: #FAF3DD;
+}
+
+.containerbox{
+  position: relative;
+  background-color:transparent;
+  padding: 0px;
   display:flex;
   justify-content: space-between;
 
 }
 
-.barre{
-  width: 165px;
-  float: left;
-  margin-top: 30px;
+
+
+.containerbox .icones{
+  background-color: #AED9E0;
+  padding: 20px;
+  margin: 2px;
+
+}
+
+
+.containerbox .photos{
+  background-color: transparent ;
+  margin: 4px;
+  width: 50%;
+}
+.barre2{
+position: relative;
+ width: 170px;
+ text-align: left;
+ margin-left: 1%;
+ background-color:#FAF3DD ;
+}
+
+.mabox1{
+  background-color:#FAF3DD ;
+  width: 80% ;
+  margin: 0 auto;
+  padding: 25px 15px 10px 15px;
+ font-family: 'Helvetica Neue';
+ font-size: 15px;
+ line-height: 200%;
+
+}
+
+
+
+.item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+  p{
+    font-family: 'Helvetica Neue';
+    margin-left: 10px;
+  }
 }
