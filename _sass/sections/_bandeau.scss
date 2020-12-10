@@ -1,6 +1,4 @@
 .BandSpeed{
-    display: flex;
-    justify-content: space-evenly;
     text-align: center;
     align-items: center;
     padding-top: 6vw;
@@ -10,8 +8,6 @@
 }
 .PBandSpeed{
     background-color: $yellowcolor; 
-    // display: flex;
-    // justify-content: center;  
     align-items: center;
     margin-top: 3em;
     margin-bottom: 6em;
@@ -24,13 +20,14 @@
     font-size: 20px;
 }
 .chrona{
-    display: flex;
-    justify-content: end;
     align-items: center;
-    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 8px;
     margin-top: 0;
+    position: absolute;
+    left: 65%;
 
 }
 .chrona p{
@@ -39,11 +36,8 @@
 
 .PBandSpeed img{
     width: 22%;
-    height: 22%;
 }
 .BandCuistot{
-    display: flex;
-    justify-content: space-evenly;
     text-align: center;
     align-items: center;
     padding-top: 3vw;
@@ -53,7 +47,7 @@
 }
 .BandCuistot img{
     width: 16%;
-    height: 16%;
+    left: 5%;
 } 
 .PBandSpeed .Fleche img{
     margin-left: auto;
@@ -65,4 +59,8 @@
 .chrona img{
     width: 15%;
     height: 15%;
+}
+.oursBand{
+    position: absolute;
+    left: 2vw;
 }
