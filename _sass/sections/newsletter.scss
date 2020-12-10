@@ -1,5 +1,5 @@
 $newsletterBoxColor : #AED9E0;
-
+$Helvetica : 'Helvetica';
 .newsletter_box {
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ background-color: red;
 height: 50vh;
 width: 100%;
 .title_newletter {
-    font-family: $Helvetica;
+    font-family: $Helvetica; 
 }
 }
 
