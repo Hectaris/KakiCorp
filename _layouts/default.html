@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: " en-US " }}">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
 
-    <body>
-        {% include pages/Commonsections/Header.html %}
-        {% include pages/Menu_accueil.html %}
-        {% include pages/PlatDuJour.html %}
-        {% include pages/bandeau.html %}
-        {% include pages/menuspeed.html %}
-        {% include pages/Commonsections/Footer.html %}
-    </body>
+<body>
+    {% include pages/Commonsections/Header.html %}
+    {% include pages/Menu_accueil.html %}
+    {% include pages/PlatDuJour.html %}
+    {% include pages/bandeau.html %}
+    {% include pages/menuspeed.html %}
+    {% include pages/newsletter.html %}
+    {% include pages/Commonsections/Footer.html %}
 </html>
