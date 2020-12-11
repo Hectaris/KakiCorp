@@ -1,5 +1,6 @@
 $newsletterBoxColor: #FFA69E;
 .newsletter_box {
+    z-index: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
