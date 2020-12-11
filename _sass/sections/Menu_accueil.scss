@@ -81,10 +81,6 @@
     height: 3.5vh;
     width: auto;
 }
-.button:hover {
-    background-color: $yellowcolor;
-    color: $bodyColor;
-}
 .recettes {
     margin-top: 13vh;
     margin-bottom: 8vh;
@@ -96,7 +92,7 @@
     justify-content: center;
     height: 3.5vh;
     width: auto;
-    margin: 0vh 0vh 2vh;
+    margin: 0vh;
 }
 .fleche img {
     height: 3.5vh;
