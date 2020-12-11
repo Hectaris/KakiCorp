@@ -1,8 +1,16 @@
-<div id="menuspeedpopup" class="recette_cuistot_box popin-recette">
+<div id="menuCuistot" class="popin-recette">
     <section class="container">
-        <div class="box_croix">
-            <a href="#PlusDeRecettes"><img src="assets/img/picto/croix.png"></a>
-        </div>
+
+        <a class="box_croix" href="#PlusDeRecette" id="croix2"><img src="assets/img/picto/croix.png" alt=""></a>
+
+        <script>
+            document.getElementById('croix2').addEventListener('click', function() {
+
+                document.getElementById('menuCuistot').style.display = 'none'
+
+            });
+        </script>
+
         <div class="topbox">
             <h1 class="titre">La recette cuistot</h1>
             <p class="textecommun"><img class="montre" src="/assets/img/picto/ingredients/stopwatch.png" alt="montre"> 25 minutes MAX !</p>
